@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
-base: '/CivicLens-AI-/',
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: '/CivicLens-AI-/',
   plugins: [react()],
   server: {
     port: 5173,
